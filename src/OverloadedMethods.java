@@ -94,7 +94,7 @@ public class OverloadedMethods {
     //doesn't work bc the two int params already exist in a different
     //overloaded version
     //when you overload a method, each version needs a different signature
-    //a method signature refers to the quanity and seuquence of params
+    //a method signature refers to the quantity and sequence of params
 
 //    public static int max(int c, int d) {
 //        if (c > d) {
