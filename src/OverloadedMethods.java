@@ -29,6 +29,9 @@ public class OverloadedMethods {
         //-positive if a comes AFTER b
         //-zero if a is the same as b
 
+        //reading left to right for compareTo - if the strings are already in order
+        //negative is returned, if they are out of order positive is returned
+
         //tape comes before word - returns positive
         System.out.println("word".compareTo("tape"));
 
@@ -45,9 +48,6 @@ public class OverloadedMethods {
         //sequentially, all uppercase letters come before all lowercase letters
         //-assume case is consistent when using compareTo
         System.out.println("Z".compareTo("a"));
-
-        //reading left to right for compareTo - if the words are already in order
-        //negative is returned, if they are out of order positive is returned
 
 
         //there are two versions of the substring method - one takes one int,
