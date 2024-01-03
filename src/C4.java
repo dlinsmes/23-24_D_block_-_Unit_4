@@ -167,7 +167,6 @@ public class C4 {
                     //diag1
                     if (i+offset < board.length && j+offset < board[0].length &&
                         board[i+offset][j+offset].equals(piece)) {
-
                         d1Count++;
                     }
 
