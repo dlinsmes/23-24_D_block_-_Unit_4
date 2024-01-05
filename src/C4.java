@@ -171,10 +171,14 @@ public class C4 {
                     }
 
                     //diag2
+                    if (i+offset < board.length && j-offset >= 0 &&
+                            board[i+offset][j-offset].equals(piece)) {
+                        d2Count++;
+                    }
 
                 }
 
-                if (rowCount == 4 || colCount == 4 || d1Count == 4) {
+                if (rowCount == 4 || colCount == 4 || d1Count == 4 || d2Count == 4) {
                     System.out.println(name + " won!");
                     return true;
                 }
